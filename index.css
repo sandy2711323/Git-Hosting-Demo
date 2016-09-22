@@ -11,9 +11,16 @@ body > p {
     padding: 10px;
     color: red;
     background-color: grey;
+    box-shadow: 10px 10px grey;
 }
 
 body > p:hover {
     color: aqua;
     background-color: green;
+    box-shadow: 10px 10px grey;
+}
+
+body > img {
+    border: 1px solid black;
+    box-shadow: 10px 10px grey;
 }
