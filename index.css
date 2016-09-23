@@ -8,11 +8,13 @@ body {
     background-color: white;
     width: 1000px;
     margin-left: 252px;
-    box-shadow: 20px 20px lightgrey;
+    box-shadow: 10px 10px lightgrey;
 }
-#head{
-     border: 2px solid black;
+
+#head {
+    border: 2px solid black;
 }
+
 #head > ul {
     /*display: inline-block;*/
     color: red;
@@ -20,8 +22,6 @@ body {
     height: 50px;
     padding-left: 189px;
     font-family: cursive;
-    
-   
 }
 
 #head > img {
@@ -44,5 +44,38 @@ body {
 
 #head li a:hover {
     text-decoration: none;
-    color: green;
+    color: violet;
+}
+
+#body {
+    background: cyan;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    height: 500px;
+}
+
+#footer {
+    background: black;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#footer .column{
+    width: 331px;
+    float: left;
+    text-align: center;
+    background: grey;
+    height: 500px;
+    border-right: 2px dotted white;
+}
+#copyright {
+    float: right;
+    font-family: sans-serif;
+    font-size-adjust: 20px;
+    display: inline-block;
 }
