@@ -1,26 +1,48 @@
+/* This is my site css*/
+
 body {
-    font-family: cursive;
-    font-size: 50px;
-    display: inline-block;
-    margin-top: 200px;
-    margin-left: 500px;
+    background-color: white;
 }
 
-body > p {
-    border: 1px solid black;
-    padding: 10px;
+.container {
+    background-color: white;
+    width: 1000px;
+    margin-left: 252px;
+    box-shadow: 20px 20px lightgrey;
+}
+#head{
+     border: 2px solid black;
+}
+#head > ul {
+    /*display: inline-block;*/
     color: red;
-    background-color: grey;
-    box-shadow: 10px 10px grey;
+    width: 800px;
+    height: 50px;
+    padding-left: 189px;
+    font-family: cursive;
+    
+   
 }
 
-body > p:hover {
-    color: aqua;
-    background-color: green;
-    box-shadow: 10px 10px grey;
+#head > img {
+    border: 1px black dotted;
 }
 
-body > img {
-    border: 1px solid black;
-    box-shadow: 10px 10px grey;
+#head li {
+    float: left;
+    list-style: none;
+    font-size: 40px;
+    margin-left: 80x;
+    margin-right: 20px;
+    height: 50px;
+}
+
+#head li a {
+    text-decoration: none;
+    color: black;
+}
+
+#head li a:hover {
+    text-decoration: none;
+    color: green;
 }
