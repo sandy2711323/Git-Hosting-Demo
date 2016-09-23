@@ -26,7 +26,7 @@ body {
 }
 
 #head > img {
-    border: 1px black dotted;
+   /* border: 1px black dotted;*/
 }
 
 #head li {
