@@ -1,8 +1,7 @@
 /* This is my site css*/
 
-
 body {
-    background-image: url(img/background.jpg);    
+    background-image: url(img/background.jpg);
 }
 
 .container {
@@ -26,7 +25,7 @@ body {
 }
 
 #head > img {
-   /* border: 1px black dotted;*/
+    /* border: 1px black dotted;*/
 }
 
 #head li {
@@ -49,7 +48,7 @@ body {
 }
 
 #body {
-    background: cyan;
+    background: white;
     color: black;
     font-family: cursive;
     font-size: 20px;
@@ -71,15 +70,47 @@ body {
     width: 498px;
     float: left;
     text-align: center;
-    background: grey;
+    background: black;
     height: 315px;
     border-right: 2px dotted white;
 }
 
-#copyright {
+#copyright{
     float: right;
     font-family: sans-serif;
     font-size-adjust: 20px;
     display: inline-block;
-    color:white;
+    
+}
+#copyright a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+#copyright a:hover {
+    text-decoration: none;
+    color: violet;
+    padding: 5px;
+}
+
+
+#form {
+    display: inline-block;
+    margin-top: 10px;
+    height: 300px;
+    width: 450px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-right: 140px;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: violet;
+    float: left;
+    margin-right: 140px;
 }
