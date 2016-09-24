@@ -11,7 +11,7 @@ body {
     background-color: white;
     width: 1000px;
     margin-left: 252px;
-    box-shadow: 10px 10px lightgrey;
+  /*  box-shadow: 10px 10px lightgrey;*/
 }
 
 #head {
@@ -75,7 +75,7 @@ body {
     text-align: center;
     background: black;
     height: 315px;
-    border-right: 2px dotted white;
+    /*border-right: 2px dotted white;*/
 }
 
 #copyright {
@@ -140,6 +140,7 @@ body {
    /* border: 1px white solid;*/
     position: fixed;
     margin-top: 100px;
+    padding-right: 0px;
 }
 
 #socialIcon a {
@@ -151,7 +152,7 @@ body {
 
 #socialIcon li {
     list-style: none;
-    padding: 10px;
+    /*padding: 10px;*/
     float: none;
     width: 147px;
 }
