@@ -11,7 +11,7 @@ http://demosandy.esy.es/index.html
 
 
 Git Page for my Project 
-https://sandy2711323.github.io/HostingerDemo/
+https://sandy2711323.github.io/Git-Hosting-Demo/
 
 Did setup according to 
 https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
